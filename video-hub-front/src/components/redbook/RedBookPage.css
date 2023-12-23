@@ -1,0 +1,32 @@
+/* RedBookPage.css */
+
+.redbook-page {
+    margin-bottom: 16px;
+}
+
+.card-container {
+    margin-top: 16px;
+}
+
+.video-input {
+    margin-bottom: 16px;
+}
+
+.video-container {
+    width: 100%;
+}
+
+.download-button {
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.explanation-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.explanation-list li {
+    margin-bottom: 8px;
+}

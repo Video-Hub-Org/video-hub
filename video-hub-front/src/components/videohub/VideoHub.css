@@ -1,0 +1,55 @@
+.video-hub-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 80px;
+    background-color: #E0E0E0;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar.collapsed {
+    width: 40px; /* 调整为你希望的收缩宽度 */
+}
+
+.toggle-btn {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    background-color: #F9A825;
+    color: #fff;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+.ant-layout-footer {
+    text-align: center;
+    background-color: #001529; /* 设置 Footer 的背景色 */
+    color: white; /* 设置 Footer 的文字颜色 */
+    padding: 10px;
+}

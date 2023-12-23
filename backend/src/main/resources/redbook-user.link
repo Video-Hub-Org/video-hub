@@ -1,0 +1,11 @@
+# 说明：
+# 小红书用户分享链接放在这个文件里，支持点击分享按钮生成的链接，也支持web端的profile的链接
+# 两种链接的顺序怎么放都可以，不要随意改动链接内容
+# 所有以#号开头的行都将被忽略，如果你有些笔记已经下载但是想留痕，就在最前面加上#号
+
+################################################################
+
+# https://www.xiaohongshu.com/user/profile/55b86f953397db35a5b34c07
+https://www.xiaohongshu.com/user/profile/5b239ec311be106fe4cf0427
+https://www.xiaohongshu.com/user/profile/5688f2fdb8ce1a26ed7b0aff?xhsshare=CopyLink&appuid=64b2ab2e000000000a022ad9&apptime=1703142346
+

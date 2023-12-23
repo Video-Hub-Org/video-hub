@@ -1,0 +1,11 @@
+# application.yml
+
+server:
+  # 端口号
+  port: 6088
+
+# 文件保存路径
+fileSavePath: videoHubDownload/
+
+# 下载视频超时时间，单位：秒
+videoDownloadTimeout: 60
