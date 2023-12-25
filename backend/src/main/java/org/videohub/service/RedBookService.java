@@ -49,7 +49,7 @@ public class RedBookService {
     public static void downloadNodeBatch(String url) {
         try {
             if (videoDownloadTimeout < 1)
-                videoDownloadTimeout = 60;
+                videoDownloadTimeout = 180;
             if (!StringUtils.hasText(fileSavePath))
                 fileSavePath = VideoHubConstants.VIDEOHUB_FILEPATH;
 
@@ -160,7 +160,7 @@ public class RedBookService {
         try {
             downloadFuture.get(timeoutInSeconds, TimeUnit.SECONDS);
         } catch (TimeoutException e) {
-            log.error("下载超时，已经过 {} 秒", timeoutInSeconds);
+            log.error("下载超时取消下载，已经超过你设置的 {} 秒", timeoutInSeconds);
             downloadFuture.cancel(true); // 取消下载任务
         } catch (InterruptedException | ExecutionException e) {
             log.error("下载出现错误~~~~", e);

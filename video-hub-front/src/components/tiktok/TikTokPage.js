@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Input, Button, message, Spin, Card} from 'antd';
 import axios from 'axios';
 import './TikTokPage.css';
+import '../../common/Common.css';
 
 const TikTokPage = () => {
   const [videoUrl, setVideoUrl] = useState('');
@@ -33,7 +34,7 @@ const TikTokPage = () => {
   return (
     <div className="tiktok-page">
       <h2>TikTok&抖音</h2>
-      <Card className="card-container">
+      <Card className="card-container shadow">
         <TextArea
           placeholder="输入TikTok或抖音视频链接"
           value={videoUrl}

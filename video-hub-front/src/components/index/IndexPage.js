@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './IndexPage.css';
+import '../../common/Common.css';
 import {Card, Typography} from "antd";
 
 const {Paragraph} = Typography;
@@ -26,7 +27,7 @@ const IndexPage = () => {
   return (
     <div className="index-page">
       <h2>首页</h2>
-      <Card className="card-container">
+      <Card className="card-container shadow">
         {ipInfo && (
           <div>
             <Paragraph>

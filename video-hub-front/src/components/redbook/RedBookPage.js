@@ -3,6 +3,7 @@ import {Input, Button, message, Card, Checkbox} from 'antd';
 import {DownloadOutlined} from "@ant-design/icons";
 import axios from 'axios';
 import './RedBookPage.css';
+import '../../common/Common.css';
 
 const RedBookPage = () => {
   const [nodeUrl, setNodeUrl] = useState('');
@@ -69,7 +70,7 @@ const RedBookPage = () => {
   return (
     <div className="redbook-page">
       <h2>小红书</h2>
-      <Card className="card-container">
+      <Card className="card-container shadow">
         <TextArea
           placeholder="输入笔记或用户链接"
           value={nodeUrl}

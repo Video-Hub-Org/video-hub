@@ -1,12 +1,13 @@
 import React from 'react';
 import './AboutPage.css';
+import '../../common/Common.css';
 import {Card} from "antd";
 
 const AboutPage = () => {
   return (
     <div className="about-page">
-      <h2>关于</h2>
-      <Card className="card-container">
+      <h2 className="">关于</h2>
+      <Card className="card-container shadow">
         <p>欢迎使用 Video Hub，一个简单的图片、视频下载和预览应用。</p>
         <p>版本号：1.0.0</p>
         <p>GitHub 仓库：
